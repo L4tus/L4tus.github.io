@@ -1,0 +1,207 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18pt;
+}
+body {
+    background-color: #CCC !important;
+}
+/* navbar */
+nav {
+    background-color: #008080;
+    height: 80px;
+    width: 100%;   
+    list-style: none;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li:active, li:hover {
+    background: #fafafa59;
+    transition: .5s;
+}
+/* navbar end */
+
+/* header */
+.banner {
+    height: 50vh;
+    min-height: 500px;
+    background-image: url('imagens/banner_visualg.jpg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+.icon {
+    height: 55px;
+    width: 55px;
+    background-color: #66A6A6;
+    margin-left: 50vw;
+    margin-top: 50vh;
+
+
+}
+/* header end */
+
+/* card index */
+
+
+.card1 {
+    height: 100%;
+    text-align: center;
+    border-radius: 25%;
+    background-color: #66A6A6 !important;
+    border-radius: 25% 25% 0% 0% !important;
+    
+}
+.card2 {
+    height: 100%;
+    text-align: center;
+    border-radius: 25%;
+    background-color: #66A6A6 !important;
+    border-radius: 25% 25% 0% 0% !important;
+}
+.card3 {
+    height: 100%;
+    text-align: center;
+    border-radius: 25%;
+    background-color: #66A6A6 !important;
+    border-radius: 25% 25% 0% 0% !important;
+}
+.card img {
+    border-radius: 25% 25% 0% 0%;
+}
+/* card index end */
+
+/* card intro */
+.card_intro{
+    border-radius: 10px !important;
+    text-align: justify;
+    padding: 10px;
+}
+/* card intro end */
+
+/* card de titulo */
+
+.bcontent .col-sm {
+    padding: 0 !important;
+}
+
+.titulo_img_left {
+    border-radius: 20% 0% 0% 0% !important;
+    height: 100%;
+}
+
+.titulo_img_right {
+    border-radius: 0% 0% 20% 0% !important;
+    height: 100%;
+}
+
+.card{
+    border-color:transparent !important;
+}
+.card-body{
+    height: 100%;
+}
+
+.texto{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    text-align: justify;
+    border-radius: 50px;
+}
+
+.texto p{
+    text-indent: 30px;
+}
+
+.bcontent{
+    margin-bottom: 90px;
+}
+.bcontent .card{
+    background-color: transparent !important;
+}
+
+/* card lugares  */
+.card-img{
+    height: 100%;
+    border-radius: 0%;
+    
+}
+.card-title{
+    text-align: center;
+}
+
+.card_info img{
+    border-radius: 0%;
+}
+
+
+
+/* conteudo */
+.container .card .row .card-body{
+    background-color: #66A6A6 ;
+}
+
+.texto li:hover{
+    background-color: transparent;
+}
+
+.conteudo .card-title{
+    margin-top: 40%;
+}
+
+/*Animação Cards */
+.card {
+    transition: all 0.3s;
+
+}
+
+.animation:hover {
+    transform: scale(1.15);
+    opacity: 0.8;
+}
+
+.card-text{
+    text-indent: 30px;
+}
+
+/* footer */
+footer {
+    background-color: #008080;
+    height: 60px;
+    width: 100%;   
+}
+.setinha {
+    background-color: #666;
+    position: absolute;
+    border-radius: 36px;
+    padding:11px 11px;
+    display: inline-block;
+    height: 50px;
+    line-height: 30px;
+    position: fixed;
+    z-index: +1;
+    right:20px;
+    bottom:5px;
+}
